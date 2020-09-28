@@ -148,6 +148,58 @@ h2{
   text-decoration: none;
   border-radius: 10px;
 }
+.contact{
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-link{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.social-link.twitter{
+  background-image: url('https://lh3.googleusercontent.com/proxy/DEBiDxZ_cZ7GEC30gCPZ-ZuNwMP1Egq_mUbnE8KI-vBmxVzjvOQnZ1YtCygprRE1zYGjYn5pCONwJPv6v1qUM74ErsPQDzyoEShLMhjjZRhqcKNlruI');
+}
+.social-link.facebook{
+  background-image: url('https://icon-library.com/images/facebook-icon-50x50/facebook-icon-50x50-2.jpg');
+}
+.social-link.gitgub{
+  background-image: url('https://www.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-512.png');
+}
+.social-link.instagram{
+  background-image: url('https://www.freepngimg.com/thumb/logo/75578-instagram-marketing-thepix-digital-logo-shiftdelete.png');
+}
+.form_email input{
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5px 20px 5px 25px;
+  background-image: url('https://www.uokpl.rs/fpng/d/9-95308_logo-de-carta.png');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+.form_email button{
+  display: block;
+  margin-top: 10px;
+  width: 100px;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.form_email h3{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .footer{
   background-color: #1b2127;
   color: white;
